@@ -15,30 +15,30 @@ ASSETS
 -This script reads an input LAMMPS file and creates a circle of variable radius within middle of the crystal. It changes the atom type
 of the atoms inside the circle and then is able to create new LAMMPS files in which the circle is rotated.
 
-find_shear.py
+"find_shear.py"
 -plots shear stress vs. time using LAMMPS output files as input
 
-gb_pos_find.py
+"gb_pos_find.py"
 -This script is designed to find how the position of a grain boundary changes
 when shear stress is applied
 
-mean_alat_finder.py
+"mean_alat_finder.py"
 -find the mean lattice spacing of a crystal
 
-mobility_calculator.py
+"mobility_calculator.py"
 -calculate grain boundary mobility
 
-particle_track.py
+"particle_track.py"
 -This script is designed to track the movement of a certain group of atoms from
 one time step to another. It will then colorize this group and display it's original
 position and its final position.
 
-python_1Ddisplacement.py
+"python_1Ddisplacement.py"
 -this script displaces a block of atoms in one dimension based on a collection of LAMMPS outputs
 
-python_2Ddisplacement.py
+"python_2Ddisplacement.py"
 -this script displaces a block of atoms in two dimensions based on a collection of LAMMPS outputs
 
-python_runner.py
+"python_runner.py"
 -This script is designed to calculate average lattice parameter over a range of 
 different temperature in order to calculate thermal expansion
